@@ -1,6 +1,8 @@
 # Note Taker
 ![MIT license](https://img.shields.io/badge/license-MIT-green.svg)
 
+[Deployed at https://lit-citadel-22833.herokuapp.com/](https://lit-citadel-22833.herokuapp.com/)
+
 ## Description
 Node/Express JSON database application for writing and saving personal notes
 
