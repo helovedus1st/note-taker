@@ -5,7 +5,12 @@ const htmlRoutes = require('./routes/htmlRoutes');
 
 const app = express();
 
-const PORT = process.env.port || 3001;
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3001;
+}
+app.listen(port);
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
