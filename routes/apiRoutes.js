@@ -37,8 +37,9 @@ notes.post('/notes', (req, res) => {
     res.json('Error in posting new note');
   }});
 
-// router.delete('/notes', (req, res) => {
-//     res.sendFile(path.join(__dirname, '../public/notes.html'))
-// });
+notes.delete('/notes/:id', (req, res) => {
+  deleteNote(req.params.id, './db/db.json');
+  res.json('You have successfully deleted your note.');
+});
 
 module.exports = notes;
