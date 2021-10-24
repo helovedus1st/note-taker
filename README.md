@@ -18,7 +18,7 @@ Clone and deploy.
 ## Usage
 Click the "Get Started" link from the home page. Type your note title and note text in the designated space. Click the save icon to store your note. Click the note title in the left-hand pane to retrieve and display your note. Click the trash can icon to delete your note from storage. Click the "+" icon to add a new note.
 
-![note taker screenshots](assets\note-taker-screenshots.png)
+![note taker screenshots](note-taker-screenshots.png)
 
 ## Contributing
 Not applicable for this application.
